@@ -23,7 +23,7 @@ Demos can be found in [sentinel-pigeon-demo](https://github.com/wchswchs/sentine
 
 For more details of Pigeon interceptor, see [here](https://github.com/dianping/pigeon/blob/master/USER_GUIDE.md#%E5%A6%82%E4%BD%95%E5%AE%9A%E4%B9%89%E8%87%AA%E5%B7%B1%E7%9A%84%E6%8B%A6%E6%88%AA%E5%99%A8).
 
-## Dubbo resources
+## Pigeon resources
 
 The resource for Pigeon services has following granularity:
 
