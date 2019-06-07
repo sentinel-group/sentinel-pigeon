@@ -10,7 +10,7 @@
 
     <name>${project.artifactId}</name>
     <description>The parent project of Sentinel Pigeon Adapter</description>
-    <url>https://github.com/alibaba/Sentinel</url>
+    <url>https://github.com/wchswchs/sentinel-pigeon</url>
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -48,7 +48,7 @@
 
     <modules>
         <module>sentinel-pigeon-adapter</module>
-        <module>sentinel-extension</module>
+        <module>sentinel-pigeon-demo</module>
     </modules>
 
     <dependencyManagement>
@@ -139,12 +139,6 @@
                 <configuration>
                     <sourceEncoding>${project.build.sourceEncoding}</sourceEncoding>
                     <minimumPriority>1</minimumPriority>
-                    <excludeRoots>
-                        <excludeRoot>com/alibaba/csp/sentinel/benchmark</excludeRoot>
-                    </excludeRoots>
-                    <excludes>
-                        <exclude>**/*_jmhTest.java</exclude>
-                    </excludes>
                     <printFailingErrors>true</printFailingErrors>
                     <rulesets>
                         <ruleset>rulesets/java/ali-comment.xml</ruleset>
